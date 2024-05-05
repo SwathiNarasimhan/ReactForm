@@ -1,0 +1,59 @@
+.Form-container {
+  width: 50%;
+  text-align: left;
+  margin: 30px auto;
+  background: #eee;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 17px rgba(0,0,0,20%);
+}
+.Form-container table {
+  border-spacing: 0px;
+  border-collapse: collapse;
+}
+table tr th, table tr td, table tr, table {
+  border: 1px solid #000;
+  margin: 0;
+}
+.FormContainer form label {
+  display: inline-block;
+  padding-bottom: 10px;
+}
+.FormContainer form input:not([type="radio"],[type="checkbox"]) {
+  margin-top: 4px;
+  height: 20px;
+  padding: 5px 10px;
+  width: 300px;
+}
+.FormContainer form input:not([type="radio"],[type="checkbox"]),.FormContainer form select,.FormContainer form textarea {
+  margin-top: 4px;
+  height: 20px;
+  padding: 5px 10px;
+  width: 300px;
+}
+.FormContainer form {
+  width: 340px;
+  margin: auto;
+}
+.FormContainer form select {
+  height: 30px;
+}
+.FormContainer form textarea {
+  height: auto;
+}
+
+.Form-container table {
+  border-spacing: 0px;
+  border-collapse: collapse;
+  margin-top: 40px;
+}
+.FormContainer form button {
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 7px 20px;
+  font-size: 16px;
+}
+table tr th, table tr td {
+  padding: 5px 10px;
+}
